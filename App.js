@@ -45,7 +45,7 @@ export default class App extends React.Component {
           onChangeText={text => {
             this.setState({ text: text });
           }}
-          //something here
+          
           value={this.state.text}
         />
         <TouchableOpacity
